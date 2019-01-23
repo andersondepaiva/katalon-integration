@@ -1,0 +1,255 @@
+!SESSION 2018-12-27 01:42:51.431 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_191
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=pt_BR
+Framework arguments:  -runMode=console -projectPath="/home/anderson/Katalon Studio/TestProject/TestProject.prj" -testSuitePath="Integration" -executionProfile="QA" -browserType="Chrome"
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -data config -runMode=console -projectPath="/home/anderson/Katalon Studio/TestProject/TestProject.prj" -testSuitePath="Integration" -executionProfile="QA" -browserType="Chrome"
+
+!ENTRY com.kms.katalon 4 0 2018-12-27 01:42:53.297
+!MESSAGE [SCR] Component definition XMLs not found in bundle com.kms.katalon. The component header value is OSGI-INF/component.xml
+
+!ENTRY com.kms.katalon 4 0 2018-12-27 01:42:53.305
+!MESSAGE [SCR] Component definition XMLs not found in bundle com.kms.katalon. The component header value is OSGI-INF/component.xml
+
+!ENTRY com.kms.katalon 4 0 2018-12-27 01:42:54.293
+!MESSAGE [SCR] Component definition XMLs not found in bundle com.kms.katalon. The component header value is OSGI-INF/component.xml
+
+!ENTRY com.kms.katalon 4 0 2018-12-27 01:42:54.293
+!MESSAGE [SCR] Component definition XMLs not found in bundle com.kms.katalon. The component header value is OSGI-INF/component.xml
+katalon.versionNumber=5.10.0
+katalon.buildNumber=1
+!SESSION 2018-12-27 01:44:50.806 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_191
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=pt_BR
+Framework arguments:  -runMode=console -projectPath="/home/anderson/Katalon Studio/TestProject/TestProject.prj" -testSuitePath="Integration" -executionProfile="QA" -browserType="Chrome"
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -data config -runMode=console -projectPath="/home/anderson/Katalon Studio/TestProject/TestProject.prj" -testSuitePath="Integration" -executionProfile="QA" -browserType="Chrome"
+
+!ENTRY com.kms.katalon 4 0 2018-12-27 01:44:52.309
+!MESSAGE [SCR] Component definition XMLs not found in bundle com.kms.katalon. The component header value is OSGI-INF/component.xml
+
+!ENTRY com.kms.katalon 4 0 2018-12-27 01:44:52.311
+!MESSAGE [SCR] Component definition XMLs not found in bundle com.kms.katalon. The component header value is OSGI-INF/component.xml
+
+!ENTRY com.kms.katalon 4 0 2018-12-27 01:44:52.878
+!MESSAGE [SCR] Component definition XMLs not found in bundle com.kms.katalon. The component header value is OSGI-INF/component.xml
+
+!ENTRY com.kms.katalon 4 0 2018-12-27 01:44:52.879
+!MESSAGE [SCR] Component definition XMLs not found in bundle com.kms.katalon. The component header value is OSGI-INF/component.xml
+katalon.versionNumber=5.10.0
+katalon.buildNumber=1
+!SESSION 2018-12-27 01:46:26.482 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_191
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=pt_BR
+Framework arguments:  -runMode=console -projectPath="/home/anderson/Katalon Studio/TestProject/TestProject.prj" -testSuitePath="Test Suite/Integration" -executionProfile="QA" -browserType="Chrome"
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -data config -runMode=console -projectPath="/home/anderson/Katalon Studio/TestProject/TestProject.prj" -testSuitePath="Test Suite/Integration" -executionProfile="QA" -browserType="Chrome"
+
+!ENTRY com.kms.katalon 4 0 2018-12-27 01:46:29.127
+!MESSAGE [SCR] Component definition XMLs not found in bundle com.kms.katalon. The component header value is OSGI-INF/component.xml
+
+!ENTRY com.kms.katalon 4 0 2018-12-27 01:46:29.129
+!MESSAGE [SCR] Component definition XMLs not found in bundle com.kms.katalon. The component header value is OSGI-INF/component.xml
+
+!ENTRY com.kms.katalon 4 0 2018-12-27 01:46:30.173
+!MESSAGE [SCR] Component definition XMLs not found in bundle com.kms.katalon. The component header value is OSGI-INF/component.xml
+
+!ENTRY com.kms.katalon 4 0 2018-12-27 01:46:30.173
+!MESSAGE [SCR] Component definition XMLs not found in bundle com.kms.katalon. The component header value is OSGI-INF/component.xml
+katalon.versionNumber=5.10.0
+katalon.buildNumber=1
+!SESSION 2018-12-29 00:24:07.116 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_191
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=pt_BR
+Framework arguments:  -runMode=console -projectPath="/home/anderson/Katalon Studio/TestProject/TestProject.prj" -testSuitePath="Test Suites/Integration" -executionProfile="QA" -browserType="Chrome"
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -data config -runMode=console -projectPath="/home/anderson/Katalon Studio/TestProject/TestProject.prj" -testSuitePath="Test Suites/Integration" -executionProfile="QA" -browserType="Chrome"
+
+!ENTRY com.kms.katalon 4 0 2018-12-29 00:24:08.573
+!MESSAGE [SCR] Component definition XMLs not found in bundle com.kms.katalon. The component header value is OSGI-INF/component.xml
+
+!ENTRY com.kms.katalon 4 0 2018-12-29 00:24:08.574
+!MESSAGE [SCR] Component definition XMLs not found in bundle com.kms.katalon. The component header value is OSGI-INF/component.xml
+
+!ENTRY com.kms.katalon 4 0 2018-12-29 00:24:09.241
+!MESSAGE [SCR] Component definition XMLs not found in bundle com.kms.katalon. The component header value is OSGI-INF/component.xml
+
+!ENTRY com.kms.katalon 4 0 2018-12-29 00:24:09.241
+!MESSAGE [SCR] Component definition XMLs not found in bundle com.kms.katalon. The component header value is OSGI-INF/component.xml
+katalon.versionNumber=5.10.0
+katalon.buildNumber=1
+!SESSION 2018-12-29 00:31:01.799 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_191
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=pt_BR
+Framework arguments:  -runMode=console -projectPath="/home/anderson/Katalon Studio/TestProject/TestProject.prj" -testSuitePath="Test Suites/Integration" -executionProfile="QA" -browserType="Chrome"
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -data config -runMode=console -projectPath="/home/anderson/Katalon Studio/TestProject/TestProject.prj" -testSuitePath="Test Suites/Integration" -executionProfile="QA" -browserType="Chrome"
+
+!ENTRY com.kms.katalon 4 0 2018-12-29 00:31:02.910
+!MESSAGE [SCR] Component definition XMLs not found in bundle com.kms.katalon. The component header value is OSGI-INF/component.xml
+
+!ENTRY com.kms.katalon 4 0 2018-12-29 00:31:02.911
+!MESSAGE [SCR] Component definition XMLs not found in bundle com.kms.katalon. The component header value is OSGI-INF/component.xml
+
+!ENTRY com.kms.katalon 4 0 2018-12-29 00:31:03.354
+!MESSAGE [SCR] Component definition XMLs not found in bundle com.kms.katalon. The component header value is OSGI-INF/component.xml
+
+!ENTRY com.kms.katalon 4 0 2018-12-29 00:31:03.354
+!MESSAGE [SCR] Component definition XMLs not found in bundle com.kms.katalon. The component header value is OSGI-INF/component.xml
+katalon.versionNumber=5.10.0
+katalon.buildNumber=1
+!SESSION 2018-12-29 00:38:46.250 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_191
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=pt_BR
+Framework arguments:  -runMode=console -projectPath="/home/anderson/Katalon Studio/TestProject/TestProject.prj" -testSuitePath="Test Suites/Integration" -executionProfile="QA" -browserType="Chrome"
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -data config -runMode=console -projectPath="/home/anderson/Katalon Studio/TestProject/TestProject.prj" -testSuitePath="Test Suites/Integration" -executionProfile="QA" -browserType="Chrome"
+
+!ENTRY com.kms.katalon 4 0 2018-12-29 00:38:47.790
+!MESSAGE [SCR] Component definition XMLs not found in bundle com.kms.katalon. The component header value is OSGI-INF/component.xml
+
+!ENTRY com.kms.katalon 4 0 2018-12-29 00:38:47.791
+!MESSAGE [SCR] Component definition XMLs not found in bundle com.kms.katalon. The component header value is OSGI-INF/component.xml
+
+!ENTRY com.kms.katalon 4 0 2018-12-29 00:38:48.444
+!MESSAGE [SCR] Component definition XMLs not found in bundle com.kms.katalon. The component header value is OSGI-INF/component.xml
+
+!ENTRY com.kms.katalon 4 0 2018-12-29 00:38:48.444
+!MESSAGE [SCR] Component definition XMLs not found in bundle com.kms.katalon. The component header value is OSGI-INF/component.xml
+katalon.versionNumber=5.10.0
+katalon.buildNumber=1
+!SESSION 2018-12-29 00:41:27.579 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_191
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=pt_BR
+Framework arguments:  -runMode=console -projectPath="/home/anderson/Katalon Studio/TestProject/TestProject.prj" -testSuitePath="Test Suites/Integration" -executionProfile="QA" -browserType="Chrome"
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -data config -runMode=console -projectPath="/home/anderson/Katalon Studio/TestProject/TestProject.prj" -testSuitePath="Test Suites/Integration" -executionProfile="QA" -browserType="Chrome"
+
+!ENTRY com.kms.katalon 4 0 2018-12-29 00:41:28.670
+!MESSAGE [SCR] Component definition XMLs not found in bundle com.kms.katalon. The component header value is OSGI-INF/component.xml
+
+!ENTRY com.kms.katalon 4 0 2018-12-29 00:41:28.671
+!MESSAGE [SCR] Component definition XMLs not found in bundle com.kms.katalon. The component header value is OSGI-INF/component.xml
+
+!ENTRY com.kms.katalon 4 0 2018-12-29 00:41:28.995
+!MESSAGE [SCR] Component definition XMLs not found in bundle com.kms.katalon. The component header value is OSGI-INF/component.xml
+
+!ENTRY com.kms.katalon 4 0 2018-12-29 00:41:28.995
+!MESSAGE [SCR] Component definition XMLs not found in bundle com.kms.katalon. The component header value is OSGI-INF/component.xml
+katalon.versionNumber=5.10.0
+katalon.buildNumber=1
+!SESSION 2018-12-29 00:48:23.523 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_191
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=pt_BR
+Framework arguments:  -runMode=console -projectPath="/home/anderson/Katalon Studio/TestProject/TestProject.prj" -testSuitePath="Test Suites/Integration" -executionProfile="QA" -browserType="Firefox"
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -data config -runMode=console -projectPath="/home/anderson/Katalon Studio/TestProject/TestProject.prj" -testSuitePath="Test Suites/Integration" -executionProfile="QA" -browserType="Firefox"
+
+!ENTRY com.kms.katalon 4 0 2018-12-29 00:48:25.769
+!MESSAGE [SCR] Component definition XMLs not found in bundle com.kms.katalon. The component header value is OSGI-INF/component.xml
+
+!ENTRY com.kms.katalon 4 0 2018-12-29 00:48:25.770
+!MESSAGE [SCR] Component definition XMLs not found in bundle com.kms.katalon. The component header value is OSGI-INF/component.xml
+
+!ENTRY com.kms.katalon 4 0 2018-12-29 00:48:28.251
+!MESSAGE [SCR] Component definition XMLs not found in bundle com.kms.katalon. The component header value is OSGI-INF/component.xml
+
+!ENTRY com.kms.katalon 4 0 2018-12-29 00:48:28.251
+!MESSAGE [SCR] Component definition XMLs not found in bundle com.kms.katalon. The component header value is OSGI-INF/component.xml
+katalon.versionNumber=5.10.0
+katalon.buildNumber=1
+!SESSION 2018-12-29 00:58:32.631 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_191
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=pt_BR
+Framework arguments:  -runMode console -projectPath /home/anderson/Katalon Studio/TestProject/TestProject.prj -testSuitePath Test Suites/Integration -executionProfile QA -browserType Firefox
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -data config -runMode console -projectPath /home/anderson/Katalon Studio/TestProject/TestProject.prj -testSuitePath Test Suites/Integration -executionProfile QA -browserType Firefox
+
+!ENTRY com.kms.katalon 4 0 2018-12-29 00:58:33.853
+!MESSAGE [SCR] Component definition XMLs not found in bundle com.kms.katalon. The component header value is OSGI-INF/component.xml
+
+!ENTRY com.kms.katalon 4 0 2018-12-29 00:58:33.854
+!MESSAGE [SCR] Component definition XMLs not found in bundle com.kms.katalon. The component header value is OSGI-INF/component.xml
+
+!ENTRY com.kms.katalon 4 0 2018-12-29 00:58:34.197
+!MESSAGE [SCR] Component definition XMLs not found in bundle com.kms.katalon. The component header value is OSGI-INF/component.xml
+
+!ENTRY com.kms.katalon 4 0 2018-12-29 00:58:34.197
+!MESSAGE [SCR] Component definition XMLs not found in bundle com.kms.katalon. The component header value is OSGI-INF/component.xml
+katalon.versionNumber=5.10.0
+katalon.buildNumber=1
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+
+!ENTRY org.eclipse.core.resources 2 10035 2018-12-29 01:05:56.531
+!MESSAGE The workspace will exit with unsaved changes in this session.
+!SESSION 2018-12-29 01:10:18.634 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_191
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=pt_BR
+Framework arguments:  -runMode console -projectPath /home/anderson/Katalon Studio/TestProject/TestProject.prj -testSuitePath Test Suites/Integration -executionProfile QA -browserType Firefox
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -data config -runMode console -projectPath /home/anderson/Katalon Studio/TestProject/TestProject.prj -testSuitePath Test Suites/Integration -executionProfile QA -browserType Firefox
+
+!ENTRY com.kms.katalon 4 0 2018-12-29 01:10:19.892
+!MESSAGE [SCR] Component definition XMLs not found in bundle com.kms.katalon. The component header value is OSGI-INF/component.xml
+
+!ENTRY com.kms.katalon 4 0 2018-12-29 01:10:19.894
+!MESSAGE [SCR] Component definition XMLs not found in bundle com.kms.katalon. The component header value is OSGI-INF/component.xml
+
+!ENTRY com.kms.katalon 4 0 2018-12-29 01:10:20.640
+!MESSAGE [SCR] Component definition XMLs not found in bundle com.kms.katalon. The component header value is OSGI-INF/component.xml
+
+!ENTRY com.kms.katalon 4 0 2018-12-29 01:10:20.640
+!MESSAGE [SCR] Component definition XMLs not found in bundle com.kms.katalon. The component header value is OSGI-INF/component.xml
+katalon.versionNumber=5.10.0
+katalon.buildNumber=1
+
+!ENTRY org.eclipse.core.resources 2 10035 2018-12-29 01:10:25.814
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+
+!ENTRY org.eclipse.core.resources 2 10035 2018-12-29 01:13:56.994
+!MESSAGE The workspace will exit with unsaved changes in this session.
+!SESSION 2018-12-29 01:14:52.128 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_191
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=pt_BR
+Framework arguments:  -runMode console -projectPath /home/anderson/Katalon Studio/TestProject/TestProject.prj -testSuitePath Test Suites/Integration -executionProfile QA -browserType Firefox
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -data config -runMode console -projectPath /home/anderson/Katalon Studio/TestProject/TestProject.prj -testSuitePath Test Suites/Integration -executionProfile QA -browserType Firefox
+
+!ENTRY com.kms.katalon 4 0 2018-12-29 01:14:53.847
+!MESSAGE [SCR] Component definition XMLs not found in bundle com.kms.katalon. The component header value is OSGI-INF/component.xml
+
+!ENTRY com.kms.katalon 4 0 2018-12-29 01:14:53.848
+!MESSAGE [SCR] Component definition XMLs not found in bundle com.kms.katalon. The component header value is OSGI-INF/component.xml
+
+!ENTRY com.kms.katalon 4 0 2018-12-29 01:14:54.587
+!MESSAGE [SCR] Component definition XMLs not found in bundle com.kms.katalon. The component header value is OSGI-INF/component.xml
+
+!ENTRY com.kms.katalon 4 0 2018-12-29 01:14:54.587
+!MESSAGE [SCR] Component definition XMLs not found in bundle com.kms.katalon. The component header value is OSGI-INF/component.xml
+katalon.versionNumber=5.10.0
+katalon.buildNumber=1
+
+!ENTRY org.eclipse.core.resources 2 10035 2018-12-29 01:14:59.382
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+
+!ENTRY org.eclipse.core.resources 2 10035 2018-12-29 01:16:03.541
+!MESSAGE The workspace will exit with unsaved changes in this session.
