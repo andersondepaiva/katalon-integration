@@ -11,6 +11,7 @@ import java.util.Optional;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+import org.apache.commons.lang.SystemUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.mongodb.core.query.Update;
 import org.springframework.stereotype.Service;
@@ -19,6 +20,7 @@ import org.zeroturnaround.zip.ZipUtil;
 import com.google.common.base.Joiner;
 
 import br.com.andersondepaiva.core.business.Business;
+import br.com.andersondepaiva.core.infra.exception.model.BusinessException;
 import br.com.andersondepaiva.katalonexecutor.business.interfaces.IKatalonExecutionBusiness;
 import br.com.andersondepaiva.katalonexecutor.business.interfaces.IKatalonStudioBusiness;
 import br.com.andersondepaiva.katalonexecutor.business.interfaces.IProjectBusiness;
@@ -46,10 +48,7 @@ public class KatalonExecutionBusiness extends Business<KatalonExecution, String,
 	@Override
 	public boolean executeTests(KatalonExecutionDto dto)
 			throws IOException, InterruptedException, ReflectiveOperationException {
-		List<String> params = java.util.Arrays.asList("cmd.exe", "/c", "katalon", "-noSplash", "-runMode", "console",
-				"-retry", "0", "-projectPath", dto.getProject().getPath(), "-testSuitePath",
-				dto.getTestSuite().getName(), "-executionProfile", dto.getProfile().getName(), "-browserType",
-				dto.getBrowser());
+		List<String> params = buildCmdParams(dto);
 
 		Optional<KatalonExecution> optionalKatalon = baseRepository.findById(dto.getId());
 
@@ -64,7 +63,9 @@ public class KatalonExecutionBusiness extends Business<KatalonExecution, String,
 
 		projectBusiness.syncProject(katalonEntity.getProject());
 
-		String reportTestPath = katalonEntity.getTestSuite().getPath().replace("\\Test Suites\\", "\\Reports\\");
+		String reportTestPath = katalonEntity.getTestSuite().getPath().replace(
+				katalonEntity.getProject().getPath() + String.format("%sTest Suites%s", File.separator, File.separator),
+				katalonEntity.getProject().getPath() + String.format("%sReports%s", File.separator, File.separator));
 		String logFilePath = Joiner.on(File.separator).join(katalonStudioBusiness.getWorkPath(),
 				katalonEntity.getId() + ".txt");
 
@@ -78,6 +79,23 @@ public class KatalonExecutionBusiness extends Business<KatalonExecution, String,
 		executeAtomicUpdate(updateKatalonExecution, katalonEntity.getId());
 
 		return true;
+	}
+
+	private List<String> buildCmdParams(KatalonExecutionDto dto) {
+		if (SystemUtils.IS_OS_WINDOWS) {
+			return java.util.Arrays.asList("cmd.exe", "/c", "katalon", "-noSplash", "-runMode", "console", "-retry",
+					"0", "-projectPath", dto.getProject().getPath(), "-testSuitePath", dto.getTestSuite().getName(),
+					"-executionProfile", dto.getProfile().getName(), "-browserType", dto.getBrowser());
+		}
+
+		if (SystemUtils.IS_OS_LINUX) {
+			return java.util.Arrays.asList("bash", "-c", String.format(
+					"./katalon --args -noSplash -runMode=console retry=0 -projectPath=\"%s\" -testSuitePath=\"%s\" -executionProfile=\"%s\" -browserType=\"%s\"",
+					dto.getProject().getPath(), dto.getTestSuite().getName(), dto.getProfile().getName(),
+					dto.getBrowser()));
+		}
+
+		throw new BusinessException("Unidentified Operating System");
 	}
 
 	private ResultCmdKatalonDto executeCmd(List<String> cmd, String reportTestPath, String logFilePath)
