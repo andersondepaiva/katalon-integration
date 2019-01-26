@@ -6,11 +6,11 @@ Projeto de integração com os testes feitos no Katalon Studio
 
 # Componentes
 * Auth
-API autenticação JWT (Spring Boot e Security)
+    * API autenticação JWT (Spring Boot e Security)
 * Core
-Biblioteca Jar com classes base (Business, Repository, Client...) para todos os projetos.
+    * Biblioteca Jar com classes base (Business, Repository, Client...) para todos os projetos.
 * Discovery
-Eureka Server (Spring Boot)
+    * Eureka Server (Spring Boot)
 * Gateway
     * API Gateway Zuul utilizando Spring Boot, também é responsável pela validação do JWT.
 * Katalon-Executor
