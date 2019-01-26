@@ -1,5 +1,5 @@
-# katalon-integration
-Projeto de integração com os testes feitos no Katalon Studio
+# Katalon Integration
+Projeto de gestão de execuções remotas de Test Suítes do Katalon Studio
 
 # Arquitetura
 ![alt text](https://i.ibb.co/S7Nkvjv/Captura-de-tela-de-2019-01-26-10-43-22.png)
